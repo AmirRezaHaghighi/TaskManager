@@ -1,0 +1,135 @@
+$primary-dark: #141f5b;
+$dark-text: #48484a;
+$primary-light: #4c54b9;
+$primary: #3d4a8f;
+$secondary: #00798c;
+$third: #aaacaf;
+$third-light: #f5f7fb;
+
+.wrapper {
+  width: 85%;
+  border-radius: 2.4rem !important;
+}
+
+.form {
+  border-radius: 2.4rem;
+}
+
+.left {
+  border-radius: 2.4rem 0 0 2.4rem;
+}
+
+.text-primary-dark {
+  color: $primary-dark;
+}
+
+.text-primary-light {
+  color: $primary-light;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-dark-text {
+  color: $dark-text !important;
+}
+
+.text-third {
+  color: $third;
+}
+
+.icon {
+  color: $primary-light;
+}
+
+body {
+  background-color: $third-light !important;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bg-primary-light {
+  background-color: $primary-light !important;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.board {
+  background-color: #ebecf0;
+}
+
+.parent {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.horizontal-scrollable {
+  // overflow: auto !important;
+  // position: absolute;
+  overflow-x: scroll;
+  width: 100%;
+  cursor: grab;
+  box-sizing: content-box;
+}
+
+.example::-webkit-scrollbar {
+  display: block !important;
+}
+
+@media screen and (max-width: 576px) {
+  .font-large {
+    font-size: calc(1.09rem + 2 * ((100vw - 576px) / 424)) !important;
+  }
+
+  .font-small {
+    font-size: calc(0.788rem + 2 * ((100vw - 576px) / 424)) !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .logo {
+    width: 16rem;
+  }
+
+  .form {
+    border-radius: 0 2.4rem 2.4rem 0;
+    border-top-left-radius: 4rem;
+  }
+
+  .right {
+    border-radius: 0 2.4rem 2.4rem 0;
+    background-color: #4c54b9;
+  }
+
+  .title {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 73%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo {
+    width: 22rem;
+  }
+  .end-form {
+    margin-bottom: 100px;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";

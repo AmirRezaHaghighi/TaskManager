@@ -1,0 +1,25 @@
+.AuthenticationBox {
+  border-radius: 2.4rem 0rem 4rem 2.4rem;
+  background-image: linear-gradient(to right, #202b62, #2f3b7b, #4c54b9);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%) !important;
+  backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.default-border-radius {
+  border-radius: 2rem;
+}
+
+.m {
+  margin: auto 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 16rem;
+  }
+}

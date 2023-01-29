@@ -1,0 +1,21 @@
+$third-light: #f5f7fb;
+
+.form-control,
+.input-group-text {
+  background-color: $third-light !important;
+}
+.form-control {
+  border-left: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.input-group-lg > .input-group-text {
+  border-radius: 1rem 0 0 1rem !important;
+}
+
+.input-group-lg > .form-control {
+  border-radius: 0 1rem 1rem 0 !important;
+}
